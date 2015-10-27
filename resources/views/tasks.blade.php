@@ -9,25 +9,14 @@
 				</div>
 
 				<div class="panel-body">
-					@if (count($errors) > 0)
-						<!-- Form Error List -->
-						<div class="alert alert-danger">
-							<strong>Whoops! Something went wrong!</strong>
-
-							<br><br>
-
-							<ul>
-								@foreach ($errors->all() as $error)
-									<li>{{ $error }}</li>
-								@endforeach
-							</ul>
-						</div>
-					@endif
+					<!-- Display Validation Errors -->
+					@include('common.errors')
 
 					<!-- New Task Form -->
 					<form action="/task" method="POST" class="form-horizontal">
 						{{ csrf_field() }}
 
+						<!-- Task Name -->
 						<div class="form-group">
 							<label for="task" class="col-sm-3 control-label">Task</label>
 
@@ -36,6 +25,7 @@
 							</div>
 						</div>
 
+						<!-- Add Task Button -->
 						<div class="form-group">
 							<div class="col-sm-offset-3 col-sm-6">
 								<button type="submit" class="btn btn-default">
