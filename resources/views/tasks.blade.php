@@ -18,7 +18,7 @@
 
 						<!-- Task Name -->
 						<div class="form-group">
-							<label for="task" class="col-sm-3 control-label">Task</label>
+							<label for="task-name" class="col-sm-3 control-label">Task</label>
 
 							<div class="col-sm-6">
 								<input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
