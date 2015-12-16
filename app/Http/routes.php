@@ -51,8 +51,8 @@ Route::group(['middleware' => 'web'], function () {
 	/**
 	 * Delete Task
 	 */
-	Route::delete('/task/{id}', function ($id) {
-		Task::findOrFail($id)->delete();
+	Route::delete('/task/{task}', function (Task $task) {
+		$task->delete();
 
 		return redirect('/');
 	});
