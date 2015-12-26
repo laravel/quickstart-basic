@@ -28,12 +28,6 @@
 			padding-top: 6px;
 		}
 	</style>
-
-	<script>
-		$(function () {
-			$('#task-name').focus();
-		});
-	</script>
 </head>
 
 <body>
