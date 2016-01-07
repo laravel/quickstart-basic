@@ -6,7 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.2.*",
+        "symfony/dom-crawler": "^3.0",
+        "symfony/css-selector": "^3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -45,6 +47,7 @@
             "php artisan key:generate"
         ]
     },
+    "minimum-stability": "dev",
     "config": {
         "preferred-install": "dist"
     }
