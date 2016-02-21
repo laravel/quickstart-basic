@@ -29,7 +29,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-plus"></i>Add Task
+                                    <i class="fa fa-btn fa-plus"></i>Add Task
                                 </button>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                                 {{ method_field('DELETE') }}
 
                                                 <button type="submit" class="btn btn-danger">
-                                                    <i class="fa fa-trash"></i>Delete
+                                                    <i class="fa fa-btn fa-trash"></i>Delete
                                                 </button>
                                             </form>
                                         </td>
