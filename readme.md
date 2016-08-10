@@ -1,3 +1,14 @@
 # Laravel Quickstart - Basic
 
-http://laravel.com/docs/quickstart
+ # Installation :
+ ``git clone https://github.com/laravel/quickstart-basic quickstart``
+ 
+ ``cd quickstart``
+ 
+ ``composer install``
+ 
+ ``php artisan migrate``
+ 
+ ``php artisan serve``
+
+ [Complete tutorial](http://laravel.com/docs/quickstart)
